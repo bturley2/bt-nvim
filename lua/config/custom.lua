@@ -11,15 +11,18 @@ vim.keymap.set("n", "<leader>fg", builtin.live_grep, { desc = "Telescope live gr
 vim.keymap.set("n", "<leader>fb", builtin.buffers, { desc = "Telescope buffers" })
 vim.keymap.set("n", "<leader>fh", builtin.help_tags, { desc = "Telescope help tags" })
 
-vim.g.have_nerd_font = true
 vim.opt.breakindent = true
 -- Enable mouse mode, can be useful for resizing splits
 vim.opt.mouse = "a"
 vim.opt.cursorline = true
 
+-- Minimal number of screen lines to keep above and below the cursor.
+vim.g.have_nerd_font = true
+vim.opt.scrolloff = 10
+
 -- Make line numbers default, or add relative line numbers
 vim.opt.number = true
--- vim.opt.relativenumber = true
+vim.opt.relativenumber = true
 
 -- Highlight when yanking (copying) text
 vim.api.nvim_create_autocmd("TextYankPost", {
