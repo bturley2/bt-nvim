@@ -12,7 +12,7 @@ git clone git@github.com:bturley2/bt-nvim.git nvim
 
 You must also install several dependencies:
 ```
-brew install ripgrep fd luarocks node
+brew install ripgrep fd luarocks node npm clang-format markdown wget go rust php
 
 # python neovim module, allows running python plugins
 python -m pip install neovim
