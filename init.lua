@@ -34,6 +34,13 @@ require("lspconfig").rust_analyzer.setup {}
 require("lspconfig").yamlls.setup {}
 
 
+-- choose color
+-- vim.o.background = "light" -- or "light" for light mode on 'gruvbox'
+-- vim.cmd.colorscheme "gruvbox"
+vim.cmd.colorscheme "catppuccin-frappe" -- catppuccin-latte, catppuccin-frappe, catppuccin-macchiato, catppuccin-mocha
+-- vim.cmd.colorscheme "dayfox" -- dayfox, dawnfox, nightfox, nordfox, duskfox
+
+
 -- set hotkeys for telescope
 local builtin = require('telescope.builtin')
 vim.keymap.set('n', '<leader>ff', builtin.find_files, { desc = 'Telescope find files' })
