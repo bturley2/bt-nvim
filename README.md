@@ -49,9 +49,13 @@ The following items are currently installed:
 * nvim-autopairs [https://github.com/windwp/nvim-autopairs] Add end brackets and parenthesis automatically.
 * Mason [https://github.com/williamboman/mason.nvim] LSP Installer.
 * mason-lspconfig [https://github.com/williamboman/mason-lspconfig.nvim] Automatically integrate Mason with lspconfig.
+* conform.nvim [certain languages on save] Auto-format files on save
+* indent-blankline [https://github.com/lukas-reineke/indent-blankline.nvim] highlights line indentation to make it easier to match indentation
 
 
 Leader key is set to `<space>`. Invoke file fuzzy finding with `<space>ff`, search within all files with `<space>fg`, etc. The hotkeys are all defined in the `init.lua` file.
+
+Instantly open and close filetree with `\`
 
 
 
