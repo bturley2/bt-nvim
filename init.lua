@@ -1,8 +1,9 @@
 require("config.lazy")
 require("mason").setup()
 require("mason-lspconfig").setup {
+	-- this step INSTALLS the following language servers
 	ensure_installed = {
-			-- "bashls",
+			"bashls",
 			"clangd",
 			"gopls",
 			-- "harper_ls", -- provides grammar support, faster alternative to grammarly
@@ -19,11 +20,18 @@ require("mason-lspconfig").setup {
 	automatic_installation = true,
 }
 
--- require("lspconfig").bashls.setup {}
--- require("lspconfig").clangd.setup {}
--- require("lspconfig").gopls.setup {}
--- require("lspconfig").lua_ls.setup {}
--- require("lspconfig").rust_analyzer.setup {}
+-- this step STARTS the following language servers on localhost
+require("lspconfig").bashls.setup {}
+require("lspconfig").clangd.setup {}
+require("lspconfig").gopls.setup {}
+require("lspconfig").jsonls.setup {}
+require("lspconfig").lua_ls.setup {}
+require("lspconfig").marksman.setup {}
+require("lspconfig").pyright.setup {}
+require("lspconfig").sqls.setup {}
+require("lspconfig").taplo.setup {}
+require("lspconfig").rust_analyzer.setup {}
+require("lspconfig").yamlls.setup {}
 
 
 -- set hotkeys for telescope
