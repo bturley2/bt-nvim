@@ -44,14 +44,14 @@ The following items are currently installed:
 * TreeSitter [https://github.com/nvim-treesitter/nvim-treesitter] for proper language parsing. See the plugin's lua code for a list of languages I've included.
 * nvim-lspconfig [https://github.com/neovim/nvim-lspconfig] to allow LSP support.
 * telescope [https://github.com/nvim-telescope/telescope.nvim?tab=readme-ov-file] fuzzy file finder.
-* nvim-cmp [] Auto-complete for text.
-* NeoTree [] Visual file-tree sidebar.
-* nvim-autopairs [] Add end brackets and parenthesis automatically.
-* Mason [] LSP Installer.
-* mason-lspconfig [] Automatically integrate Mason with lspconfig.
+* nvim-cmp [https://github.com/hrsh7th/nvim-cmp] Auto-complete for text.
+* NeoTree [https://github.com/nvim-neo-tree/neo-tree.nvim] Visual file-tree sidebar.
+* nvim-autopairs [https://github.com/windwp/nvim-autopairs] Add end brackets and parenthesis automatically.
+* Mason [https://github.com/williamboman/mason.nvim] LSP Installer.
+* mason-lspconfig [https://github.com/williamboman/mason-lspconfig.nvim] Automatically integrate Mason with lspconfig.
 
 
-Leader key is set to `<space>`. Invoke file fuzzy finding with `<space>ff`, search within a file with `<space>fg`, etc. The hotkeys are all defined in the `init.lua` file.
+Leader key is set to `<space>`. Invoke file fuzzy finding with `<space>ff`, search within all files with `<space>fg`, etc. The hotkeys are all defined in the `init.lua` file.
 
 
 
