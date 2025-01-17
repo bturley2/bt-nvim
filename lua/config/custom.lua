@@ -2,7 +2,8 @@
 vim.o.background = "light" -- or "light" for light mode on 'gruvbox'
 -- vim.cmd.colorscheme("gruvbox")
 -- vim.cmd.colorscheme("catppuccin-frappe") -- catppuccin-latte, catppuccin-frappe, catppuccin-macchiato, catppuccin-mocha
-vim.cmd.colorscheme("dawnfox") -- dayfox, dawnfox, nightfox, nordfox, duskfox
+-- vim.cmd.colorscheme("dawnfox") -- dayfox, dawnfox, nightfox, nordfox, duskfox
+vim.cmd.colorscheme("dayfox") -- dayfox, dawnfox, nightfox, nordfox, duskfox
 -- vim.cmd.colorscheme("rose-pine-moon")
 
 -- set hotkeys for telescope

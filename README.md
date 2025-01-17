@@ -42,19 +42,21 @@ The following items are currently installed:
 * lazy.nvim [https://github.com/folke/lazy.nvim] as a package manager, the file system follows lazy's standards (note: this is different from LazyVim)
 * TreeSitter [https://github.com/nvim-treesitter/nvim-treesitter] for proper language parsing. See the plugin's lua code for a list of languages I've included.
 * nvim-lspconfig [https://github.com/neovim/nvim-lspconfig] to allow LSP support.
+* Mason [https://github.com/williamboman/mason.nvim] LSP Installer.
+* mason-lspconfig [https://github.com/williamboman/mason-lspconfig.nvim] Automatically integrate Mason with lspconfig.
 * telescope [https://github.com/nvim-telescope/telescope.nvim?tab=readme-ov-file] fuzzy file finder.
 * nvim-cmp [https://github.com/hrsh7th/nvim-cmp] Auto-complete for text.
 * NeoTree [https://github.com/nvim-neo-tree/neo-tree.nvim] Visual file-tree sidebar.
 * nvim-autopairs [https://github.com/windwp/nvim-autopairs] Add end brackets and parenthesis automatically.
-* Mason [https://github.com/williamboman/mason.nvim] LSP Installer.
-* mason-lspconfig [https://github.com/williamboman/mason-lspconfig.nvim] Automatically integrate Mason with lspconfig.
 * conform.nvim [certain languages on save] Auto-format files on save
 * indent-blankline [https://github.com/lukas-reineke/indent-blankline.nvim] highlights line indentation to make it easier to match indentation
 
 
-Leader key is set to `<space>`. Invoke file fuzzy finding with `<space>ff`, search within all files with `<space>fg`, etc. The hotkeys are all defined in the `init.lua` file.
-
-Instantly open and close filetree with `\`
+# Daily Use Info
+* Leader key is set to `<space>`. Invoke file fuzzy finding with `<space>ff`, search within all files with `<space>fg`, etc. The hotkeys are all defined in the `init.lua` file.
+* Instantly open and close the neotree filetree with `\`
+* View installed languages, and update language support with `:Mason`
+* View installed packages, and update package versions with `:Lazy`
 
 
 
