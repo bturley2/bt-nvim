@@ -19,7 +19,7 @@ vim.opt.mouse = "a"
 vim.opt.cursorline = true
 
 -- Minimal number of screen lines to keep above and below the cursor.
-vim.opt.scrolloff = 5
+-- vim.opt.scrolloff = 5
 
 -- Make line numbers default, or add relative line numbers
 vim.opt.number = true

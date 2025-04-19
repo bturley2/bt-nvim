@@ -53,7 +53,7 @@ The following items are currently installed:
 
 
 # Daily Use Info
-* Leader key is set to `<space>`. Invoke file fuzzy finding with `<space>ff`, search within all files with `<space>fg`, etc. The hotkeys are all defined in the `init.lua` file.
+* Leader key is set to `<space>`. Invoke file fuzzy finding with `<space>ff`, search within all files with `<space>fg`, etc. The hotkeys are all defined in the `lua/config/custom.lua` file.
 * Instantly open and close the neotree filetree with `\`
 * View installed languages, and update language support with `:Mason`
 * View installed packages, and update package versions with `:Lazy`
